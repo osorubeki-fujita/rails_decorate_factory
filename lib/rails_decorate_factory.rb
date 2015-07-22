@@ -66,7 +66,7 @@ class RailsDecorateFactory
   end
 
   private
-  
+
   def current_position( hash_key_name )
     begin
       return recognize_path( fullpath )[ hash_key_name.to_sym ]

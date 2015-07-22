@@ -1,5 +1,5 @@
 class RailsDecorateFactory
 
-  VERSION = "0.1.0"
+  VERSION = ::File.open( "#{ ::File.dirname( __FILE__ ) }/../../.current_version" , "r:utf-8" ).read.chomp
 
 end
